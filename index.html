@@ -1,0 +1,58 @@
+<!DOCTYPE htmlupdate-cancel-btn>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js http</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>N/O</th>
+          <th>F.I.O</th>
+          <th>Username</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- UPDATE FORM -->
+    <form class="update-form display-none">
+      <input
+        type="text"
+        placeholder="FirstName"
+        class="update-firstName-input"
+      />
+      <input type="text" placeholder="LastName" class="update-lastName-input" />
+      <button class="update-cancel-btn">Cancel</button>
+      <button class="update-btn">Update</button>
+    </form>
+    <!-- CREATE FORM -->
+    <button class="create-btn">Create user +</button>
+    <form class="create-user-form display-none">
+      <input type="text" placeholder="FirstName" class="create-firstName" />
+      <input type="text" placeholder="LastName" class="create-lastName" />
+      <input
+        type="text"
+        placeholder="Pasport number"
+        class="create-passport-number"
+      />
+      <input
+        type="text"
+        placeholder="+998991234567"
+        class="create-phone-number"
+      />
+
+      <input type="text" placeholder="Store Name" class="create-store-name" />
+      <input type="text" placeholder="Password" class="create-password" />
+      <input type="text" placeholder="Username" class="create-username" />
+      <div class="btns">
+        <button class="button">Cancel</button>
+        <button class="create-user-btn button">Create User</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
